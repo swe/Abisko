@@ -29,8 +29,8 @@
 
 </main>
 
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>ijs/jquery-3.1.0.min.js"></script>
-<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>ijs/js.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/js.js"></script>
 
 </body>
 </html>
