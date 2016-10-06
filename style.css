@@ -3,7 +3,7 @@
 	Theme URI: http://alleksy.com
 	Description: Theme was created specially for Ivan Alleksy website
 	Version: 1.0.0
-	Author: nIvan Alleksy
+	Author: Ivan Alleksy
 	Author URI: http://alleksy.com
 	Tags: HTML5, CSS3
 
@@ -98,7 +98,7 @@ p {
 }
 .button:hover {
     color: #000;
-    border: 1px solid crimson;
+    border: 1px solid navy;
 }
 a {
     text-decoration: none;
@@ -109,8 +109,8 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: crimson;
-    border-bottom: 1px solid crimson;
+    color: navy;
+    border-bottom: 1px solid navy;
 }
 .sidebar {
     background-color: #fff;
@@ -120,7 +120,7 @@ a:hover {
     border-right: 1px solid #d8d8d8;
 }
 .sidebar a:hover .logo {
-    border-top: 3px solid crimson;
+    border-top: 3px solid navy;
 }
 .sidebar .logo {
     border-top: 3px solid transparent;
@@ -210,7 +210,7 @@ a:hover {
     border-bottom: none;
 }
 .posts a.blog-post:hover {
-    border-left: 3px solid crimson;
+    border-left: 3px solid navy;
     border-bottom: none;
 }
 .posts a.blog-post h1 {
@@ -275,7 +275,7 @@ sup.remark a {
     border: none;
 }
 sup.remark a:hover {
-    color: crimson;
+    color: navy;
 }
 p.img-header {
     padding: 0 5px 5px 5px;
@@ -328,4 +328,19 @@ p.hire-img__title {
 }
 .fix {
     position: fixed;
+}
+code {
+    background: #f9f9f9;
+    padding: .1em .4em;
+    font-size: .7rem;
+    line-height: 100%;
+    word-break: break-all;
+    font-family: 'Source Code Pro', "Courier New"
+}
+ol, ul, li {
+    font-size: .6rem;
+    padding: 0;
+}
+li {
+    line-height: 1rem;
 }
