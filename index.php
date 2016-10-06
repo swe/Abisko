@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <body>
+<body id="fadein" style="display: none;">
 
 <main class="content">
 
