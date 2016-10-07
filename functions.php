@@ -37,8 +37,7 @@ add_action( 'after_setup_theme', 'alleksytheme_theme_setup' );
 
 /* Menus */
 register_nav_menus(array(
-    'main_menu' => __('Navigation Menu'),
-    'sidebar_menu' => __('Sidebar Menu')
+    'main_menu' => __('Footer Main Menu')
 ));
 
 /* Register widget area */
