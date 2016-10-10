@@ -11,17 +11,20 @@
     <div class="contact">
 
         <h3>contact</h3>
-        <p><a href="mailto:hello@alleksy.com">hello@alleksy.com</a></p>
+        <p>
+
+            <?php wp_nav_menu('menu=email-menu&menu_class=my-main-menu'); ?>
+
+        </p>
 
     </div>
     <div class="menu">
 
         <h3>Main Links</h3>
         <p>
-            <a href="https://alleksy.com/">Home</a> |
-            <a href="https://alleksy.com/blog">Blog</a> |
-            <a href="http://github.com/swe">GitHub</a> |
-            <a href="http://instagram.com/iamalleksy">Instagram</a>
+
+            <?php wp_nav_menu('menu=footer-menu&menu_class=my-main-menu'); ?>
+
         </p>
     </div>
 
