@@ -6,7 +6,7 @@
     <title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
 
     <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Vollkorn" rel="stylesheet">
     <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/img/favicon/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/img/favicon/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/img/favicon/favicon-16x16.png" sizes="16x16">
