@@ -5,7 +5,7 @@
         <div class="logo">
 
             <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png">
-            <h1>Ivan Aleksandrov</h1>
+            <h1><?php bloginfo('name'); ?></h1>
 
         </div>
 
