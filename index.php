@@ -4,7 +4,7 @@
 
 <main class="content">
 
-    <div class="wrapper"  id="fadein" style="display: none;">
+    <div class="wrapper" id="fadein" style="display: none;">
 
         <?php get_sidebar(); ?>
 
