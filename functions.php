@@ -41,29 +41,29 @@ register_nav_menus(array(
 ));
 
 /* Register widget area */
-function alleksytheme_widgets_init() {
-    register_sidebar( array(
-        'name'          => __( 'Widget Area', 'alleksytheme' ),
-        'id'            => 'right-sidebar',
-        'description'   => __( 'Add widgets here to appear in your sidebar.', 'alleksytheme' ),
-        'before_widget' => '<div class="widget">',
-        'before_title'  => '<span class="widget-header">',
-        'after_title'   => '</span>',
-        'after_widget'  => '</div>',
-    ) );
-}
-add_action( 'widgets_init', 'alleksytheme_widgets_init' );
-
-/* Remove information about version of wordpress */
-remove_action('wp_head', 'wp_generator');
-
-/* Hide admin bar */
-add_filter('show_admin_bar', '__return_false');
-
-/* Excerpt properties */
-function custom_excerpt_length( $length ) {
-    return 250;
-}
-add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+//function alleksytheme_widgets_init() {
+//    register_sidebar( array(
+//        'name'          => __( 'Widget Area', 'alleksytheme' ),
+//        'id'            => 'right-sidebar',
+//        'description'   => __( 'Add widgets here to appear in your sidebar.', 'alleksytheme' ),
+//        'before_widget' => '<div class="widget">',
+//        'before_title'  => '<span class="widget-header">',
+//        'after_title'   => '</span>',
+//        'after_widget'  => '</div>',
+//    ) );
+//}
+//add_action( 'widgets_init', 'alleksytheme_widgets_init' );
+//
+///* Remove information about version of wordpress */
+//remove_action('wp_head', 'wp_generator');
+//
+///* Hide admin bar */
+//add_filter('show_admin_bar', '__return_false');
+//
+///* Excerpt properties */
+//function custom_excerpt_length( $length ) {
+//    return 250;
+//}
+//add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 ?>
