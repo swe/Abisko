@@ -19,22 +19,8 @@
     -webkit-transition: all .2s linear;
     -o-transition: all .2s linear;
     transition: all .2s linear;
-    font-size: 18px;
+    font-size: 18px;!important
 }
-
-/********************************************************************LINKS COLOR
-red;
-blue;
-green;
-magenta;
-cyan;
-beige;
-salmon;
-lime;
-steelblue;
-navy;
-crimson;
-*/
 
 ::selection {
     background: #212020;
@@ -314,4 +300,7 @@ li {
 }
 .menu-item {
     display: inline-block;
+}
+em {
+    font-size: .7rem;
 }
