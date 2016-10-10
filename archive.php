@@ -6,7 +6,7 @@ get_header(); ?>
 
 <main class="content">
 
-<?php get_sidebar(); ?>
+    <?php get_sidebar(); ?>
 
     <div class="inner">
 
