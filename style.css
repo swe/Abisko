@@ -1,18 +1,18 @@
 /*
-	Theme Name: Alleksy main theme
-	Theme URI: http://alleksy.com
-	Description: Theme was created specially for Ivan Alleksy website
-	Version: 1.0.0
+	Theme Name: Abisko
+	Theme URI: http://github.com/swe/abisko-theme
+	Description: Clean and simple HTML5 adaptive theme. Created in 2016 by Ivan A.
+	Version: 1.1.0
 	Author: Ivan Alleksy
 	Author URI: http://alleksy.com
-	Tags: HTML5, CSS3
+	Tags: HTML5, CSS3, clean, theme
 
 	License: MIT
 	License URI: http://opensource.org/licenses/mit-license.php
 */
 
 * {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Merriweather', serif;
     margin: 0;
     box-shadow: none;
     outline: none;
@@ -20,24 +20,6 @@
     -o-transition: all .2s linear;
     transition: all .2s linear;
     font-size: 18px;
-}
-@font-face {
-    font-family: 'Libre Baskerville';
-    font-style: normal;
-    font-weight: 400;
-    src: url(fonts/LibreBaskerville-Regular.woff) format('woff');
-}
-@font-face {
-    font-family: 'Libre Baskerville';
-    font-style: normal;
-    font-weight: 700;
-    src: url(fonts/LibreBaskerville-Bold.woff) format('woff');
-}
-@font-face {
-    font-family: 'Libre Baskerville';
-    font-style: italic;
-    font-weight: 400;
-    src: url(fonts/LibreBaskerville-Italic.woff) format('woff');
 }
 
 /********************************************************************LINKS COLOR
@@ -65,8 +47,9 @@ crimson;
 body {
     height: 100%;
     width: 100%;
+    border-bottom: 10px solid #212020;
+    border-top: 1px solid #212020;
 }
-
 .content{
     max-width: 1000px;
     margin: 0 auto;
@@ -76,8 +59,9 @@ body {
     min-width: 855px;
 }
 p {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     line-height: 1rem;
+    font-family: 'Merriweather', serif;
 }
 .button {
     background: #fff;
@@ -98,29 +82,28 @@ p {
 }
 .button:hover {
     color: #000;
-    border: 1px solid navy;
+    border: 1px solid steelblue;
 }
 a {
     text-decoration: none;
     color: #000;
     font-weight: 300;
     border-bottom: 1px solid #a5a5a5;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
 a:hover {
     text-decoration: none;
-    color: navy;
-    border-bottom: 1px solid navy;
+    color: steelblue;
+    border-bottom: 1px solid steelblue;
 }
 .sidebar {
-    background-color: #fff;
     width: 84px;
     height: 100%;
     position: fixed;
     border-right: 1px solid #d8d8d8;
 }
 .sidebar a:hover .logo {
-    border-top: 3px solid navy;
+    border-top: 3px solid steelblue;
 }
 .sidebar .logo {
     border-top: 3px solid transparent;
@@ -148,6 +131,7 @@ a:hover {
     position: absolute;
     right: -59px;
     text-decoration: none;
+    font-family: 'Vollkorn', serif;
 }
 .intro {
     border-bottom: 1px solid #d8d8d8;
@@ -179,22 +163,25 @@ a:hover {
 }
 .intro p, .posts p {
     width: 70%;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     margin-bottom: 1rem;
     line-height: 19px;
+    font-family: 'Merriweather', serif;
 }
 .post-body p {
     width: 100%;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     margin-bottom: 1rem;
     line-height: 19px;
     display: block;
+    font-family: 'Merriweather', serif;
 }
 .intro h3, .posts h3 {
     margin-bottom:  35px;
     color: #a5a5a5;
     text-transform: uppercase;
     font-size: 0.7rem;
+    font-family: 'Vollkorn', serif;
 }
 .intro img {
     width:  210px;
@@ -210,11 +197,11 @@ a:hover {
     border-bottom: none;
 }
 .posts a.blog-post:hover {
-    border-left: 3px solid navy;
+    border-left: 3px solid steelblue;
     border-bottom: none;
 }
 .posts a.blog-post h1 {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     /*text-transform: uppercase;*/
     margin: 15px 0 5px 0;
     color: black;
@@ -258,6 +245,7 @@ a:hover {
     color: black;
     display: block;
     margin-bottom: 1rem;
+    font-family: 'Vollkorn', serif;
 }
 ul.remarks {
     border-top: 1px solid #d8d8d8;
@@ -266,27 +254,29 @@ ul.remarks {
     color: #a5a5a5;
 }
 ul.remarks li {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     line-height: 1rem;
 }
 sup.remark a {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     color: #a5a5a5;
     border: none;
 }
 sup.remark a:hover {
-    color: navy;
+    color: steelblue;
 }
 p.img-header {
     padding: 0 5px 5px 5px;
     color: #a5a5a5;
     line-height: 0.7rem;
     width: 210px;
+    font-family: 'Merriweather', serif;
 }
 h3.post-header {
     font-size: 0.8rem;
     font-weight: 300;
     margin: 0 0 15px 0;
+    font-family: 'Vollkorn', serif;
 }
 .post-footer {
     background-color: #fff;
@@ -325,6 +315,7 @@ p.hire-img__title {
     font-size: large;
     margin: 0;
     padding: 146px 0;
+    font-family: 'Merriweather', serif;
 }
 .fix {
     position: fixed;
@@ -338,9 +329,18 @@ code {
     font-family: 'Source Code Pro', "Courier New"
 }
 ol, ul, li {
-    font-size: .6rem;
+    font-size: .7rem;
     padding: 0;
 }
 li {
     line-height: 1rem;
+}
+.my-main-menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: block;
+}
+.menu-item {
+    display: inline-block;
 }
