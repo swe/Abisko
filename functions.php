@@ -17,17 +17,17 @@ if ( ! function_exists( 'example_setup' ) ) :
     /* Sets up theme defaults and registers support for various WordPress features. */
     function alleksytheme_theme_setup() {
 
-        // языковая поддержка
+
         load_theme_textdomain( 'alleksytheme', get_template_directory() . '/languages' );
-        // фиды для rss-подписки
+
         add_theme_support( 'automatic-feed-links' );
-        // добавление миниатюры поста
+
         add_theme_support( 'post-thumbnails' );
-        // html5 форма поиска, форма и список комментариев
+
         add_theme_support( 'html5', array(
             'search-form', 'comment-form', 'comment-list',
         ) );
-        // какие форматы постов будут поддерживаться
+
         add_theme_support( 'post-formats', array(
             'aside', 'image', 'video', 'quote', 'link', 'status',
         ) );
